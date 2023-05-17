@@ -1,0 +1,133 @@
+* {  
+    margin: 0;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hover:hover{
+
+     background-color: rgb(233, 233, 233);
+     transition:.2s;
+     transform:scale(1.1);
+     cursor:pointer;
+     z-index:2;   
+}
+
+span{
+
+     height: 25px; width: 25px; display: 
+     inline-block;
+}
+
+.linha {
+    
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    list-style-type: none;
+    font-size: 18px;
+    padding-right: 10px;
+
+   
+
+ }
+
+
+caption {
+     font-size: 30px;
+     color: black;
+
+    
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    color: white;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: white;
+ }
+ 
+
+.borda{
+    border: none;
+    box-shadow: none;
+    transform: none;
+}
+
+
+table{
+
+    border: transparent;
+    width: 1260px;     
+    margin: 40px auto;   
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .5);
+}  
+  
+
+td, tr {
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid;
+    color: black;
+
+
+}
+ /*Tirar a borda*/
+.none { 
+    border: none;
+}
+
+.talvezrosa {
+    background-color: #a1669f;
+    
+}
+
+.azul {
+    background-color: #1a66c9;
+}
+
+.azulciano {
+    background-color: #00b6bc;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.verdeAzulSeilá {
+    background-color: #338f90;
+}
+
+.verde {
+    background-color: #59cf6e;
+}
+
+.laranja {
+    background-color: #f36d4a;
+}
+
+.azulciano2 {
+    background-color: #00b6bc;
+}
+
+.amarelo {
+    background-color: #f5b659;
+}
+
+.cinza {
+    background-color: #859998;
+}
+
+.souDaltônico {
+    background-color: #004e75;
+}
+
+.souDaltônico2 {
+    background-color: #572e56;
+}
+
